@@ -29,7 +29,7 @@ int main()
     if (note[1] == '#'){
         k = k + 1;
     }
-    v = (int)note[note.length() - 1] - 48;
+    v = note[note.length() - 1] - 48;
     cout << v << endl;
     freq = refFreq * pow(2,v) * pow(twelevethRoot,k);
     wavelength = speedSound / freq;
