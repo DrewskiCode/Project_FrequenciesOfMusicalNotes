@@ -35,6 +35,6 @@ int main()
     wavelength = speedSound / freq;
     cout << "Reference Frequency: " << refFreq << endl;
     cout << "Speed of Sound: " << speedSound << endl;
-    cout << "Note:" << note << " nu(v):" << v << " k:" << k << "Frequency:" << freq  << "Hz " << "Wavelength:" << wavelength << "cm " << endl;
+    cout << "Note:" << note << " nu(v):" << v << " k:" << k << " Frequency:" << freq  << "Hz " << "Wavelength:" << wavelength << "cm " << endl;
     return 0;
 }
